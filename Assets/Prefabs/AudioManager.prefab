@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9218634127852094605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9218634127852094595}
+  - component: {fileID: 9218634127852094594}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9218634127852094595
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9218634127852094605}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9218634127852094594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9218634127852094605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fea9f4f90fd4a5f4ba21281ca9fac9fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixerGroup: {fileID: 0}
+  sounds:
+  - name: Fall
+    clip: {fileID: 8300000, guid: f064c28f8d2763244b14d43d9a10787f, type: 3}
+    volume: 0.483
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 58b626696fd4b964992df90b63cc2399, type: 3}
+    volume: 0.086
+    volumeVariance: 0.265
+    pitch: 1
+    pitchVariance: 0.01
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Damage
+    clip: {fileID: 8300000, guid: 562d0ff087cddac44bcec060770fd9b0, type: 3}
+    volume: 0.54
+    volumeVariance: 0.019
+    pitch: 1
+    pitchVariance: 0.01
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Shoot
+    clip: {fileID: 8300000, guid: 05e0048a870124e4ab7d52402a5fb274, type: 3}
+    volume: 0.361
+    volumeVariance: 0.019
+    pitch: 1
+    pitchVariance: 0.01
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Hit
+    clip: {fileID: 8300000, guid: aa3fccd13034d4a448813ca176b16b20, type: 3}
+    volume: 0.374
+    volumeVariance: 0.019
+    pitch: 1
+    pitchVariance: 0.01
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Money
+    clip: {fileID: 8300000, guid: 3b2bc77256f9dc242a22cc0ee7ce1277, type: 3}
+    volume: 0.131
+    volumeVariance: 0.019
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Ant
+    clip: {fileID: 8300000, guid: 77b212a713316a1418c5c38771be2501, type: 3}
+    volume: 0.157
+    volumeVariance: 0.019
+    pitch: 0.9
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Note
+    clip: {fileID: 8300000, guid: cd89557798af1f94881fcc5f466fa90f, type: 3}
+    volume: 0.31
+    volumeVariance: 0.019
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Spring
+    clip: {fileID: 8300000, guid: 0475729fd3f5fcb4685b8e88323e78a5, type: 3}
+    volume: 0.31
+    volumeVariance: 0.019
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Winter
+    clip: {fileID: 8300000, guid: 6773f5501df20db4d886d6bdbeffe3b2, type: 3}
+    volume: 0.31
+    volumeVariance: 0.019
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Summer
+    clip: {fileID: 8300000, guid: b075a206744212e4eb012a5fc904a838, type: 3}
+    volume: 0.31
+    volumeVariance: 0.019
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
